@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.socials {
+   margin-top: 100px;
+}
+
+.button {
+    margin-top: 90px;
+    background: #240046;
+    border-radius: 10px;
+    
+}
+
+.contact-btn {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #240046;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+
+.side-menu {
+    background-color: #F5F5F5;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.list-group {
+    box-shadow: 0px 10px 20px 0px #2400460D;
+}
+
+.side-menu{
+    background: #FFFFFF;
+}
+
+.text1 {
+    font-style: normal;
+    font-size: 18px;
+}
+
+.list-group :hover {
+    background: #111111;
+    color: white;
+}
+
+.image{
+    filter: drop-shadow(0px 7px 15px rgba(36, 0, 70, 0.1));
+    border-radius: 15px;
+}
+
+.nav :hover {
+    background: #240046;
+    color: white;
+}
+
+.filter, .navigations, .banny {
+    background: #24004617;
+}
+
+.text1, .text, .nav-link, .searches {
+    color: #240046;
+}
+
+.text, .contacts {
+    font-size: 30px;
+}
+
+.smaller-text, .nav-link, .tab-pane, .name, .contact-btn {
+    font-size: 18px;
+}
+
+.smaller-text
+
+#drummer-section {
+    box-shadow: 0px 7px 15px 0px #2400461A;
+}
+
+
+.nav-item {
+    background: rgba(36, 0, 70, 0.09);
+    border: 1px solid #240046;
+    border-radius: 10px;
+}
+
+.banny{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.information {
+    background: rgba(36, 0, 70, 0.1);
+    border-radius: 6px;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.comment {
+    font-size:12px;
+}
+
+.searches {
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+.youtube-images {
+    position: relative;
+    display: block;
+    background:linear-gradient( rgba(17, 17, 17, 0.76)), url(../img/upload.png);
+    border-radius: 15px;
+}
+   
+
+.youtube {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.images-searches {
+    filter: drop-shadow(0px 7px 15px rgba(36, 0, 70, 0.1));
+    border-radius: 15px;
+}
+
+.searched {
+    font-size: 17px;
+}
+
+.hire-btn {
+    position: absolute;
+    margin-left: 200px;
+}
+
+.name {
+    font-size: 26px;
+}
+
+
+/*text1 {
+    font-style: normal;
+    font-size: 18px;
+}
+
+.smaller-text {
+    color: #111111;
+}
+
+.nav-item{
+    margin-top: 0px;
+}*/
+
+@media (max-width:426px) {
+    .banny {
+        font-size: 10px;
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    .tab-pane, .nav-item, .searched {
+        font-size: 10px;
+    }
+
+    .navigations {
+        width: 50%;
+    }
+}
+
+/*@media(min-width:1025px) {
+    .searches-smallscreen{
+        display: none;
+    }
+}*/
+
+
