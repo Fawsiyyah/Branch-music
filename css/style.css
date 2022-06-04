@@ -57,20 +57,16 @@
     border-radius: 15px;
 }
 
-.nav :hover {
-    background: #240046;
-    color: white;
-}
 
 .filter, .navigations, .banny {
     background: #24004617;
 }
 
-.text1, .text, .nav-link, .searches {
+.text1, .text, .nav-link, .searches, .contact-text {
     color: #240046;
 }
 
-.text, .contact-text {
+.contact-text {
     font-size: 30px;
 }
 
@@ -87,6 +83,34 @@
 .nav-item {
     background: rgba(36, 0, 70, 0.09);
     border: 1px solid #240046;
+    border-radius: 10px;
+}
+
+.nav-item:hover {
+    background: #240046;
+    text-decoration-color: white;
+    border: none;
+}
+
+.nav-tabs {
+    display: flex !important;
+    justify-content: space-between !important; 
+} 
+
+.navigations-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigations {
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+.banny {
+    width: 30%;
+    margin-right: 30px;
     border-radius: 10px;
 }
 
@@ -135,48 +159,73 @@
 }
 
 .hire-btn {
-    position: absolute;
-    margin-left: 200px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #240046;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom:100px;
+    text-align: center;
 }
 
-.name {
+.button {
+    margin-top: 10px;
+    margin-bottom:100px;
+    text-align: center;
+}
+
+.name, .describe {
     font-size: 26px;
-}  
+} 
 
+.border {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 0px;
+}
 
+#contact-section {
+    box-shadow: 0px 7px 15px 0px #2400461A;
+    background: #FFFFFF;
+}
 
+.review {
+    color: #929292;
+    font-size: 13px;
+}
 
-/*text1 {
-    font-style: normal;
+.locations {
     font-size: 18px;
 }
 
-.smaller-text {
-    color: #111111;
+.second-drummer {
+    box-shadow: 0px 7px 15px 0px #2400461A;
 }
 
-.nav-item{
-    margin-top: 0px;
-}*/
+.small-text {
+    color: #606060;
+    font-size: 18px;
+}
 
-@media (max-width:426px) {
-    .banny {
+.available-text {
+    color: #240046;
+    font-size: 18px;
+}
+
+.chats {
+    font-size: 24px;
+}
+
+.second-chat {
+    border: 2px solid #333333
+}
+
+@media (max-width: 426px) {
+    .second-drummer{
         width: 100%;
     }
 
-    .navigations {
-        width: 100%;
-    }
-
-    .searched {
+    .second-text {
         width: 100%;
     }
 }
-
-/*@media(min-width:1025px) {
-    .searches-smallscreen{
-        display: none;
-    }
-}*/
-
-
