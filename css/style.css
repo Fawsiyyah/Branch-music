@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
 body {
+    font-family: 'Nunito', 'sans-serif';
     width: 100%;
     overflow-x: hidden;
 }
@@ -72,8 +75,13 @@ body {
 }
 
 
-.filter, .navigations, .banny {
+.filter {
     background: #24004617;
+}
+
+.navigations, .banny {
+    background: rgba(36, 0, 70, 0.09);
+    border-radius: 10px;
 }
 
 .text1, .text, .nav-link, .searches, .contact-text {
@@ -185,8 +193,6 @@ body {
     
    }
 
-
-
    .button {
     margin-top: 200px;
    }
@@ -237,8 +243,6 @@ body {
     border: 2px solid #333333
 }
 
-
-
 .undo {
     text-align:end;
 }
@@ -253,6 +257,14 @@ body {
 
 .undo{
     margin-left: 350px;
+}
+
+.details-1 {
+    font-size: 18px;
+}
+
+.date {
+    margin-top: 20px;
 }
 
 @media (max-width: 769px) and (min-width:426px) {
@@ -482,4 +494,33 @@ body {
     }
 
 
+}
+
+@media (max-width: 376px) {
+    .navigations {
+        width: 140px;
+    }
+
+    .banny {
+        width: 100px;
+    }
+    .email {
+        font-size: 4px;
+    }
+
+    .socials {
+        margin-left: 14;
+    }
+
+    .ms-3 {
+        margin-left: 0px;
+    }
+
+    .btn-wide { 
+        width: 45px;
+    }
+
+    .btn-small {
+        width: 40px;
+    }
 }
