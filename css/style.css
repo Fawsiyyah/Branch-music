@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
 .socials {
    margin-top: 100px;
 }
@@ -21,6 +27,14 @@
     background: #240046;
     border-radius: 10px;
     margin-top: 50px;
+    padding: 10px;
+}
+
+.contact {
+    width: 149.2px;
+    margin-right: 300px;
+   text-align: center;
+   margin: auto;
 }
 
 .text {
@@ -97,6 +111,10 @@
     justify-content: space-between !important; 
 } 
 
+.nav-tabs {
+    width: clamp(100%,70%,50%);
+}
+
 .navigations-section {
     display: flex;
     justify-content: space-between;
@@ -112,6 +130,7 @@
     width: 30%;
     margin-right: 30px;
     border-radius: 10px;
+    padding: 30px;
 }
 
 
@@ -163,16 +182,14 @@
     color: #FFFFFF;
     background: #240046;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom:100px;
-    text-align: center;
-}
+    
+   }
 
-.button {
-    margin-top: 10px;
-    margin-bottom:100px;
-    text-align: center;
-}
+
+
+   .button {
+    margin-top: 200px;
+   }
 
 .name, .describe {
     font-size: 26px;
@@ -220,12 +237,249 @@
     border: 2px solid #333333
 }
 
-@media (max-width: 426px) {
-    .second-drummer{
+
+
+.undo {
+    text-align:end;
+}
+
+.iconify:hover {
+    color: blue;
+}
+
+.align {
+    margin-left: 50px;
+}
+
+.undo{
+    margin-left: 350px;
+}
+
+@media (max-width: 769px) and (min-width:426px) {
+    body {
         width: 100%;
+        overflow-x : hidden;
     }
 
-    .second-text {
-        width: 100%;
+    .Danny {
+        font-size: 8px;
     }
+
+    .reviews-2 {
+        font-size: 4px;
+    }
+
+    .email {
+        font-size: 6px;
+    }
+
+    .searches-smallscreen {
+        font-size: 12px;
+    }
+
+    .contact-btn {
+        width: 59px;
+    }
+
+    .hire-btn {
+        width: 59px;
+    }
+
+    .nav-item {
+        width: 140px;
+    }
+
+    .btn-small {
+        width: 90px;
+    }
+
+    .banny{
+        padding-left: 10px;
+    }
+    
+    .undo {
+        margin-left: 100px;
+    }
+
+    .details-1, .number {
+        font-size: 7px;
+    }
+
+    .small-text, .available-text {
+        font-size: 10px;
+        width: 500px
+    }
+
+    .textarea.form-control-lg, textarea.form-control, .border {
+        width: 90%;
+    }
+
+    .border {
+        padding-left: 0px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .other-text {
+        font-size: 7px;
+    }
+
+    .drums {
+        flex-direction: column;
+    }
+
+
+    
+}
+
+
+@media (max-width: 426px) {
+
+    .body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+     .drums {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .undo {
+        margin-left: 100px;
+    }
+
+    .describe {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .small-text {
+        width: 350px;
+    }
+
+    .available-text {
+        width: 500px;
+    }
+
+    .border{
+        padding-left: 5px;
+    }
+    
+    .iconify-1 {
+        margin-left: 5px;
+    }
+
+    .align {
+        margin-left: 5px;
+    }
+
+    .Danny, .searched {
+        font-size: 8px;
+    }
+
+    .reviews-2 {
+        font-size: 4px;
+    }
+
+    .email, .details-1 {
+        font-size: 6px;
+    }
+
+    .navigations {
+        width: 180px;
+    }
+
+    .nav-link, .number, .comment, .date {
+        font-size: 6px;
+    }
+
+    .date {
+        margin-top: 5px;
+    }
+
+    .comment {
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        width: 51px;
+    }
+
+    .btn-small {
+        width: 40px;
+    }
+
+    .contact-btn {
+        width: 59px;
+        padding-right: 0px;
+       padding-left: 0px;
+       margin-right: 50px;
+       font-size: 8px;
+    }
+
+    .hire-btn {
+        width: 59px;
+    }
+
+    .banny{
+        width: 121px;
+        padding-left: 10px;
+    }
+    .stars {
+        width: 5.63px;
+    }
+
+    .message {
+        width: 7px;
+    }
+
+    .phone {
+        width: 6.5px;
+    }
+
+    .socials {
+        display: flex;
+    }
+
+    .social-1 {
+        width: 8.75px;
+    }
+
+    .text-center {
+        font-size: 12px;
+    }
+
+    .details-1, .number {
+        font-size: 7px;
+    }
+
+    .small-text, .available-text {
+        font-size: 10px;
+        width: 400px
+    }
+
+    .textarea.form-control-lg, textarea.form-control, .border {
+        width: 90%;
+    }
+
+    .border {
+        padding-left: 0px;
+    }
+    .name {
+        font-size: 10px;
+    }
+
+    .contact {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .other-text {
+        font-size: 7px;
+    }
+
+
 }
