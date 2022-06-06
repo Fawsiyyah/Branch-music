@@ -4,21 +4,56 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
 
 body {
     font-family: 'Nunito', 'sans-serif';
-    width: 100%;
-    overflow-x: hidden;
+    background: white;
 }
 
+.detail-box {
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25), 0 7px 15px rgba(39,0,70,0.1);
+    border-radius: 15px;
+}
 
-.socials {
-   margin-top: 100px;
+.detail-fs-md {
+    font-size: clamp(20px, 2vw, 1.75rem);
+    line-height: 1.33;
+}
+
+.detail-fs-sm {
+    font-size: clamp(12px, 1.5vw, 1.125rem);
+    line-height: 1.33;
+}
+
+.detail-fs-xs {
+    font-size: clamp(10px, 1.25vw, 1rem);
+    line-height: 1.33;
+}
+
+.purple-text {
+    color: #240046;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.navigations {
+    border-radius: 10px;
+}
+
+.banny {
+    border-radius: 10px;
 }
 
 .button {
-    margin-top: 90px;
     background: #240046;
     border-radius: 10px;
     
@@ -30,25 +65,11 @@ body {
     background: #240046;
     border-radius: 10px;
     margin-top: 50px;
-    padding: 10px;
 }
 
 .contact {
-    width: 149.2px;
-    margin-right: 300px;
    text-align: center;
    margin: auto;
-}
-
-.text {
-    font-size: 16px;
-}
-
-
-.side-menu {
-    background-color: #F5F5F5;
-    min-width: 100vw;
-    min-height: 100vh;
 }
 
 .list-group {
@@ -57,11 +78,6 @@ body {
 
 .side-menu{
     background: #FFFFFF;
-}
-
-.text1 {
-    font-style: normal;
-    font-size: 18px;
 }
 
 .list-group :hover {
@@ -88,15 +104,6 @@ body {
     color: #240046;
 }
 
-.contact-text {
-    font-size: 30px;
-}
-
-.smaller-text, .nav-link, .tab-pane, .name, .contact-btn, .locations, .contacts {
-    font-size: 18px;
-}
-
-
 #drummer-section {
     box-shadow: 0px 7px 15px 0px #2400461A;
 }
@@ -114,46 +121,24 @@ body {
     border: none;
 }
 
+.email {
+    font-size: 12px;
+}
+
+.banny {
+    padding-left: 12px;
+}
+
 .nav-tabs {
     display: flex !important;
     justify-content: space-between !important; 
-} 
-
-.navigations-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navigations {
-    width: 60%;
-    border-radius: 10px;
-}
-
-
-.banny {
-    width: 30%;
-    margin-right: 30px;
-    border-radius: 10px;
-    padding: 30px;
 }
 
 
 .information {
     background: rgba(36, 0, 70, 0.1);
     border-radius: 6px;
-}
-
-.date {
-    font-size: 10px;
-}
-
-.comment {
-    font-size:12px;
-}
-
-.searches {
-    margin-top: 200px;
-    font-size: 30px;
+    margin-right: 10px;
 }
 
 .youtube-images {
@@ -177,10 +162,6 @@ body {
     border-radius: 15px;
 }
 
-.searched {
-    font-size: 17px;
-}
-
 .hire-btn {
     text-decoration: none;
     color: #FFFFFF;
@@ -193,15 +174,6 @@ body {
     margin-top: 200px;
    }
 
-.name, .describe {
-    font-size: 26px;
-} 
-
-.border {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 0px;
-}
 
 #contact-section {
     box-shadow: 0px 7px 15px 0px #2400461A;
@@ -210,11 +182,6 @@ body {
 
 .review {
     color: #929292;
-    font-size: 13px;
-}
-
-.locations {
-    font-size: 18px;
 }
 
 .second-drummer {
@@ -223,329 +190,148 @@ body {
 
 .small-text {
     color: #606060;
-    font-size: 18px;
 }
 
 .available-text {
     color: #240046;
-    font-size: 18px;
-}
-
-.chats {
-    font-size: 24px;
 }
 
 .second-chat {
-    border: 2px solid #333333
+    border: 2px solid #333333;
 }
-
 .undo {
-    text-align:end;
+    margin-left: 130px;
 }
 
+.align {
+    margin-left: 20px;
+}
 .iconify:hover {
     color: blue;
 }
 
-.align {
-    margin-left: 50px;
-}
-
-.undo{
-    margin-left: 350px;
-}
-
-.details-1 {
-    font-size: 18px;
-}
-
-.date {
-    margin-top: 20px;
-}
-
-.nav-item {
-    width: clamp(140px,9.97vw,159.5px);
-}
-
-@media (max-width: 769px) and (min-width:426px) {
-    body {
-        width: 100%;
-        overflow-x : hidden;
-    }
-
-    .Danny {
-        font-size: 8px;
-    }
-
-    .reviews-2 {
-        font-size: 4px;
-    }
-
-    .email {
-        font-size: 6px;
-    }
-
-    .searches-smallscreen {
-        font-size: 12px;
-    }
-
-    .contact-btn {
-        width: 59px;
-    }
-
-    .hire-btn {
-        width: 59px;
-    }
-
-    .nav-item {
-        width: 140px;
-    }
-
-    .btn-small {
-        width: 90px;
-    }
-
-    .banny{
-        padding-left: 10px;
-    }
-    
-    .undo {
-        margin-left: 100px;
-    }
-
-    .details-1, .number {
-        font-size: 7px;
-    }
-
-    .small-text, .available-text {
-        font-size: 10px;
-        width: 500px
-    }
-
-    .textarea.form-control-lg, textarea.form-control, .border {
-        width: 90%;
-    }
-
-    .border {
-        padding-left: 0px;
-    }
-
-    .name {
-        font-size: 10px;
-    }
-
-    .other-text {
-        font-size: 7px;
-    }
-
-    .drums {
-        flex-direction: column;
-    }
-
-
-    
+.detail--1 {
+    padding-bottom: 200px;
 }
 
 
 @media (max-width: 426px) {
-
-    .body {
-        width: 100%;
-        overflow-x: hidden;
-    }
-     .drums {
-         flex-direction: column;
-         width: 100%;
-     }
-
-     .undo {
-        margin-left: 100px;
-    }
-
-    .describe {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .small-text {
-        width: 350px;
-    }
-
-    .available-text {
-        width: 500px;
-    }
-
-    .border{
-        padding-left: 5px;
-    }
-    
-    .iconify-1 {
-        margin-left: 5px;
-    }
-
-    .align {
-        margin-left: 5px;
-    }
-
-    .Danny, .searched {
-        font-size: 8px;
-    }
-
-    .reviews-2 {
-        font-size: 4px;
-    }
-
-    .email, .details-1 {
-        font-size: 6px;
-    }
-
-    .navigations {
-        width: 180px;
-    }
-
-    .number, .comment, .date {
-        font-size: 6px;
-    }
-
-    .btn-small, .btn-wide {
-        font-size: 3px;
-    }
-
-    .youtube {
-        margin-top: 18px;
-    }
-
-    .text-nav {
-        text-align: center;
-    }
-
-    .date {
-        margin-top: 5px;
-    }
-
-    .comment {
-        margin-bottom: 20px;
-    }
-
-    .nav-item {
-        width: 51px;
-    }
-
-    .btn-small {
-        width: 40px;
-    }
-
-    .contact-btn {
-        width: 59px;
-        padding-right: 0px;
-       padding-left: 0px;
-       margin-right: 50px;
-       font-size: 8px;
-    }
-
-    .hire-btn {
-        width: 59px;
-    }
-
-    .banny{
-        width: 121px;
-        padding-left: 10px;
-    }
-    .stars {
-        width: 5.63px;
-    }
-
-    .message {
-        width: 7px;
+    .email {
+        flex-direction: column;
+        font-size: 7px;
     }
 
     .phone {
-        width: 6.5px;
+        width: 15px;
+        padding-left: 3px;
+        padding-right: 2px;
     }
 
-    .socials {
-        display: flex;
-    }
-
-    .social-1 {
-        width: 8.75px;
-    }
-
-    .text-center {
-        font-size: 12px;
-    }
-
-    .details-1, .number {
-        font-size: 7px;
-    }
-
-    .small-text, .available-text {
+    .number {
         font-size: 10px;
-        width: 400px
-    }
-
-    .textarea.form-control-lg, textarea.form-control, .border {
-        width: 90%;
-    }
-
-    .border {
-        padding-left: 0px;
-    }
-    .name {
-        font-size: 10px;
-    }
-
-    .contact {
-        text-align: center;
-        margin: auto;
-
-    }
-
-    .other-text {
-        font-size: 7px;
-    }
-    .nav-item {
-        width: 31px;
-    }
-
-}
-
-@media (max-width: 376px) {
-    .navigations {
-        width: 140px;
     }
 
     .banny {
-        width: 100px;
-    }
-    .email {
-        font-size: 4px;
+        padding-left: 4px;
     }
 
-    .socials {
-        margin-left: 14;
-    }
-
-    .ms-3 {
-        margin-left: 0px;
-    }
-
-    .btn-wide, .btn-small { 
-       font-size: 2px;
-    }
-
-    .navigations .row  {
+    .contacts {
         padding-left: 10px;
     }
 
-    .text-nav {
-        text-align: center;
+    .navigations {
+        width: 230px;
+    }
+
+   .nav-item {
+        width: 60px;
+    }
+
+    .detail--1 {
+        padding-bottom: 0px;
+    }
+
+    .drums {
+        flex-direction: column;
+        padding-left: 12px;
     }
 
     .small-text {
-        font-size: 6px;
-        width: 89%;
+        width: 400px;
     }
+
+    .second-text {
+        padding-left: 13px;
+    }
+
+    .available-text {
+        width: 300px;
+    }
+
+    .form-group {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .iconify-l {
+        display: none;
+    }
+
+    .contact-text {
+        padding-left: 10px;
+    }
+
+    .information {
+        margin-right: 10px;
+    }
+}
+
+    
+
+    @media (max-width: 376px) {
+        .nav-item {
+            width: 53px;
+        }
+
+        .nav-link {
+            font-size: 8px;
+        }
+
+        .banny {
+            padding-left: 1px;
+        }
+
+        .information {
+            margin-right: 10px;
+        }
+    
+        .navigations {
+            width: 200px;
+        }
+
+        .banny {
+            width: 100px;
+        }
+
+        .nav-item {
+            width: 45px;
+        }
+
+        .detail--1 {
+            padding-bottom: 0px;
+        }
+
+        .small-text { 
+            width: 350px;
+        }
+
+        .form-group {
+            width: 300px;
+        }
+
+        .undo {
+            margin-left: 30px;
+        }
 }
 
 
