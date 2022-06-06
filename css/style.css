@@ -119,10 +119,6 @@ body {
     justify-content: space-between !important; 
 } 
 
-.nav-tabs {
-    width: clamp(100%,70%,50%);
-}
-
 .navigations-section {
     display: flex;
     justify-content: space-between;
@@ -267,6 +263,10 @@ body {
     margin-top: 20px;
 }
 
+.nav-item {
+    width: clamp(140px,9.97vw,159.5px);
+}
+
 @media (max-width: 769px) and (min-width:426px) {
     body {
         width: 100%;
@@ -403,8 +403,20 @@ body {
         width: 180px;
     }
 
-    .nav-link, .number, .comment, .date {
+    .number, .comment, .date {
         font-size: 6px;
+    }
+
+    .btn-small, .btn-wide {
+        font-size: 3px;
+    }
+
+    .youtube {
+        margin-top: 18px;
+    }
+
+    .text-nav {
+        text-align: center;
     }
 
     .date {
@@ -492,7 +504,9 @@ body {
     .other-text {
         font-size: 7px;
     }
-
+    .nav-item {
+        width: 31px;
+    }
 
 }
 
@@ -516,12 +530,21 @@ body {
         margin-left: 0px;
     }
 
-    .btn-wide { 
-        width: 45px;
+    .btn-wide, .btn-small { 
+       font-size: 2px;
     }
 
-    .btn-small {
-        width: 40px;
+    .navigations .row  {
+        padding-left: 10px;
+    }
+
+    .text-nav {
+        text-align: center;
+    }
+
+    .small-text {
+        font-size: 6px;
+        width: 89%;
     }
 }
 
